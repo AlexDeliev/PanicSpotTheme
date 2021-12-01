@@ -1,0 +1,134 @@
+<div class="footer-end">
+    <div class="container">
+    <div class="row">        
+        <div class="description">
+             <span>WARNING!</span>
+        <h3>
+            No One Can Save You From What You Want 
+        </h3>
+        <p >Copyright 2021©
+The Assets Were Stolen
+Example site powered by Me ™
+        </p>
+        </div>        
+            <div class="col-lg-9">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/ResLogo.png"
+                alt="Social Media Photo">
+            </div>
+                <div class="social-media-holder-tablet">
+					<a href='#'><i class="fa fa-facebook"></i></a>
+					<a href='#'><i class="fa fa-instagram"></i></a>
+					<!--<a href='#'><i class="fa fa-twitter"></i></a>-->
+            </div>
+    </div>
+</div>
+
+
+
+
+<div class="col-md-11">
+			    <div class="social-media-holder">
+				    <a href='#'><i class="fa fa-facebook"></i></a>
+				    <a href='#'><i class="fa fa-instagram"></i></a>
+				    <a href='#'><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+
+
+.footer-holder{
+    background: linear-gradient(-35deg, #fca57a, #fe9b36,#ffc801,#ffcb1e,#ffcb1e );
+    height: auto;
+
+    .description{
+        margin-top: 2em;
+        span{
+            font-family: 'Righteous';
+            font-size: 25px;
+        }
+        h3{
+            color: white;
+            font-family: 'Permanent Marker';
+            font-size:20px;
+        }
+        p{
+            font-size:16px;
+            font-family: 'Righteous';
+            white-space: pre-line;
+        }
+    }
+
+    .container{
+        .col-md-10{
+            margin-left: 25em;
+            margin-top: -12em;
+            .logo-holder{
+                
+                display: inline-block;
+                img{
+                    width: 275px;
+                    @media(max-width:$lg){
+                        width: 260px;
+                    }
+                }
+                @media(max-width:$md){
+                    display: none;
+                }
+            }
+        }
+    }
+    .container{
+        .col-md-11{
+            margin-left: -10em;
+            margin-top: 5em;
+            .social-media-holder{
+                padding-left: 20em;
+                margin-top: -5em;
+                white-space: nowrap;
+                font-size: 50px;             
+                a{  
+                    color: #a8ff78;//#e4cfcf;//#ffd5de;
+                    text-decoration: none;
+                    &:hover{
+                    color:$secondary; //darken(#cc3351,15%);//#fffafa;
+                    } 
+                }
+                @media(max-width:$lg) {
+                    display: none;
+                }
+            }
+        }                                   
+    }
+}
+
+<div class= "footer-holder">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="description">
+					<span>WARNING!</span>
+                    <h3>
+                        No One Can Save You From What You Want 
+                    </h3>
+                    <p>
+                    Copyright 2021©
+                    The Assets Were Stolen
+                    Example site powered by Me ™
+                    </p>
+			    </div>
+
+                <div class="col-md-10">
+				    <a href='/PanicSpot' class= "logo-holder">
+					    <img src="<?php echo get_template_directory_uri();?>/img/ResLogo.png" alt="the Panic Spot Logo">
+				    </a>
+			    </div>
+            </div>
+            <div class="col-md-11">
+			    <div class="social-media-holder">
+				    <a href='#'><i class="fa fa-facebook"></i></a>
+				    <a href='#'><i class="fa fa-instagram"></i></a>
+				    <a href='#'><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+		</div>				
+	</div>
+</div>
